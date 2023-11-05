@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+header {
+  background-color: #ECECEC;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 1000px;
+  margin-left: 345px;
+  margin-right: 345px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+header nav img {
+  width: 10%;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li .verTodos {
+  background-color: #ECECEC;
+}
+header nav ul li .normal {
+  background-color: #A8A878;
+}
+header nav ul li .fire {
+  background-color: #F08030;
+}
+header nav ul li .water {
+  background-color: #6890F0;
+  color: white;
+}
+header nav ul li .grass {
+  background-color: #78C850;
+}
+header nav ul li .electric {
+  background-color: #F8D030;
+}
+header nav ul li .ice {
+  background-color: #98D8D8;
+}
+header nav ul li .fighting {
+  background-color: #C03028;
+  color: white;
+}
+header nav ul li .poison {
+  background-color: #A040A0;
+  color: white;
+}
+header nav ul li .ground {
+  background-color: #E0C068;
+}
+header nav ul li .flying {
+  background-color: #A890F0;
+}
+header nav ul li .psychic {
+  background-color: #F85888;
+}
+header nav ul li .bug {
+  background-color: #A8B820;
+}
+header nav ul li .rock {
+  background-color: #B8A038;
+}
+header nav ul li .ghost {
+  background-color: #705898;
+  color: white;
+}
+header nav ul li .dark {
+  background-color: #705848;
+  color: white;
+}
+header nav ul li .dragon {
+  background-color: #7038F8;
+  color: white;
+}
+header nav ul li .steel {
+  background-color: #B8B8D0;
+}
+header nav ul li .fairy {
+  background-color: #F0B6BC;
+}
+
+button {
+  border: 0;
+  border-radius: 100vmax;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  gap: 1rem;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

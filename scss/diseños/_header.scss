@@ -1,0 +1,104 @@
+header{
+    background-color: #ECECEC;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 1000px;
+        margin-left: 345px;
+        margin-right: 345px;
+        padding-left: 32px ;
+        padding-right: 32px;
+        
+            img{
+                width: 10%;
+            }
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            
+            li{
+                list-style: none;
+                
+                
+                .verTodos{
+                    background-color: $color-vertodos;
+                }
+                
+                .normal{
+                    background-color: $color-normal;
+                }
+                .fire{
+                    background-color: $color-fire;
+                }
+                .water{
+                    background-color: $color-water;
+                    color: white;
+                }
+                .grass{
+                    background-color: $color-grass;
+                }
+                .electric{
+                    background-color: $color-electric;
+                }
+                .ice{
+                    background-color: $color-ice;
+                }
+                .fighting{
+                    background-color: $color-fighting;
+                    color: white;
+                }
+                .poison{
+                    background-color: $color-poison;
+                    color: white;
+                }
+                .ground{
+                    background-color: $color-ground;
+                }
+                .flying{
+                    background-color: $color-flying;
+                }
+                .psychic{
+                    background-color: $color-psychic;
+                }
+                .bug{
+                    background-color: $color-bug;
+                }
+                .rock{
+                    background-color: $color-rock;
+                }
+                .ghost{
+                    background-color: $color-ghost;
+                    color: white;
+                }
+                .dark{
+                    background-color: $color-dark;
+                    color: white;
+                }
+                .dragon{
+                    background-color: $color-dragon;
+                    color: white;
+                }
+                .steel{
+                    background-color: $color-steel;
+                }
+                .fairy{
+                    background-color: $color-fairy;
+                }
+        
+                
+                    
+            
+                
+                
+            }
+        }
+    }
+}
